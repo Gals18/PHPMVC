@@ -8,6 +8,9 @@ class App{
     protected $method ='index';
     protected $params =[];
 
+    //jadi klo di urlnya nggk di kasih  
+    //keterangan method dan parameter maka akan otomatis nampilin dari controller home dan 
+
     public function __construct(){
        $url = $this->parseUrl();
        
